@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "你是我的梦想"
+description: "A dust in the world."
 header-img: "img/about-bg.jpg"
 multilingual: true
 ---
@@ -21,27 +21,41 @@ multilingual: true
 </div>
 
 
-{% if site.disqus_username %}
-<!-- disqus 评论框 start -->
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
+{% if site.gitment_comment %}
+    <!-- gitment跟帖 评论框 start -->
+    <div id="comments" class="comments col-lg-8 col-lg-offset-2 col-md-10 "></div>
+    <!-- gitment跟帖 评论框 end -->
+{% endif %}
 
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+{% if site.gitment_comment %}
+<!-- gitment 公共JS代码 start (一个网页只需插入一次) -->
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
+    var github_id = "Zolho"
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+    var client_id = "{{site.client_id}}"
+    var client_secret = "{{site.client_secret}}"
+
+
+    const gitment = new Gitment({
+        id: "location.href", // optional
+        owner: github_id,
+        repo: 'ZolHo.github.io',
+        oauth: {
+            client_id: client_id,
+            client_secret: client_secret,
+        },
+        // ...
+        // For more available options, check out the documentation below
+    })
+
+    gitment.render('comments')
+    // or
+    // gitment.render(document.getElementById('comments'))
+    // or
+    // document.body.appendChild(gitment.render())
 </script>
-<!-- disqus 公共JS代码 end -->
+<!-- gitment 公共JS代码 end -->
 {% endif %}

@@ -62,11 +62,7 @@ layout: default
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
 
-                {% if site.gitment_comment %}
-                <!-- gitment跟帖 评论框 start -->
-                <div id="comments" class="comments col-lg-8 col-lg-offset-2 col-md-10 "></div>
-                <!-- gitment跟帖 评论框 end -->
-                {% endif %}
+                
             </div>  
 
     <!-- Side Catalog Container -->
@@ -86,6 +82,8 @@ layout: default
             </div>
         {% endif %}
 
+
+
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -98,6 +96,13 @@ layout: default
                 <!-- Friends Blog -->
                 {% include friends.html %}
             </div>
+
+        {% if site.gitment_comment %}
+            <!-- gitment跟帖 评论框 start -->
+            <div id="comments" class="comments col-lg-8 col-lg-offset-2 col-md-10 "></div>
+            <!-- gitment跟帖 评论框 end -->
+        {% endif %}
+
         </div>
     </div>
 </article>
@@ -137,7 +142,7 @@ layout: default
 
 
     const gitment = new Gitment({
-        //id: page_id, // optional
+        id: "location.href", // optional
         owner: github_id,
         repo: 'ZolHo.github.io',
         oauth: {
