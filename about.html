@@ -23,14 +23,14 @@ multilingual: true
 
 {% if site.gitment_comment %}
     <!-- gitment跟帖 评论框 start -->
-    <div id="comments" class="comments col-lg-8 col-lg-offset-2 col-md-10 "></div>
+    <div id="gitalk-container" class="gitalk-container col-lg-8 col-lg-offset-2 col-md-10 "></div>
     <!-- gitment跟帖 评论框 end -->
 {% endif %}
 
 {% if site.gitment_comment %}
-<!-- gitment 公共JS代码 start (一个网页只需插入一次) -->
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<!-- gittalk 公共JS代码 start (一个网页只需插入一次) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var github_id = "Zolho"
@@ -39,23 +39,19 @@ multilingual: true
     var client_secret = "{{site.client_secret}}"
 
 
-    const gitment = new Gitment({
-        id: "location.href", // optional
-        owner: github_id,
-        repo: 'ZolHo.github.io',
-        oauth: {
-            client_id: client_id,
-            client_secret: client_secret,
-        },
-        // ...
-        // For more available options, check out the documentation below
-    })
+    var gitalk = new Gitalk({
+  clientID: client_id,
+  clientSecret: client_secret,
+  repo: 'Zolho.github.io',
+  owner: 'Zolho',
+  admin: ['Zolho'],
+  id: location.href,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
 
-    gitment.render('comments')
-    // or
-    // gitment.render(document.getElementById('comments'))
-    // or
-    // document.body.appendChild(gitment.render())
+gitalk.render('gitalk-container')
 </script>
+<!-- gittalk 公共JS代码 end -->
+{% endif %}
 <!-- gitment 公共JS代码 end -->
 {% endif %}

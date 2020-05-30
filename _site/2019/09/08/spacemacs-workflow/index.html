@@ -343,9 +343,9 @@
             </div>
 
         
-            <!-- gitment跟帖 评论框 start -->
-            <div id="comments" class="comments col-lg-8 col-lg-offset-2 col-md-10 "></div>
-            <!-- gitment跟帖 评论框 end -->
+            <!-- gittalk跟帖 评论框 start -->
+            <div id="gitalk-container" class="gitalk-container col-lg-8 col-lg-offset-2 col-md-10 "></div>
+            <!-- gittalk跟帖 评论框 end -->
         
 
         </div>
@@ -359,36 +359,30 @@
 
 
 
-<!-- gitment 公共JS代码 start (一个网页只需插入一次) -->
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<!-- gittalk 公共JS代码 start (一个网页只需插入一次) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var github_id = "Zolho"
 
-    var client_id = "9b9a2d6d647839e9fd8d"
-    var client_secret = "9fbb4cdb0646ee3a5736cf355d099f6cff59be94"
+    var client_id = "fde3e0cc3fa6d8bdee16"
+    var client_secret = "d8bd130efed3f52af7eace11e1e0b78ed280b568"
 
 
-    const gitment = new Gitment({
-        id: "location.href", // optional
-        owner: github_id,
-        repo: 'ZolHo.github.io',
-        oauth: {
-            client_id: client_id,
-            client_secret: client_secret,
-        },
-        // ...
-        // For more available options, check out the documentation below
-    })
+    var gitalk = new Gitalk({
+  clientID: client_id,
+  clientSecret: client_secret,
+  repo: 'Zolho.github.io',
+  owner: 'Zolho',
+  admin: ['Zolho'],
+  id: location.href,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
 
-    gitment.render('comments')
-    // or
-    // gitment.render(document.getElementById('comments'))
-    // or
-    // document.body.appendChild(gitment.render())
+gitalk.render('gitalk-container')
 </script>
-<!-- gitment 公共JS代码 end -->
+<!-- gittalk 公共JS代码 end -->
 
 
 
