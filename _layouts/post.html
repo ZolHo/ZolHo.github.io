@@ -61,6 +61,12 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
+
+                {% if site.gitment_comment %}
+                <!-- 网易云跟帖 评论框 start -->
+                <div id="gitment-tie-wrapper" class="gitment-tie-wrapper"></div>
+                <!-- 网易云跟帖 评论框 end -->
+                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
@@ -118,21 +124,37 @@ layout: default
 {% endif %}
 
 
-{% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+{% if site.gitment_comment %}
+<!-- gitment 公共JS代码 start (一个网页只需插入一次) -->
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{page.id}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
+    var github_id = "Zolho"
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+    var client_id = "9b9a2d6d647839e9fd8d"
+    var client_secret = "9fbb4cdb0646ee3a5736cf355d099f6cff59be94"
+
+
+    const gitment = new Gitment({
+        //id: page_id, // optional
+        owner: github_id,
+        repo: 'ZolHo.github.io',
+        oauth: {
+            client_id: client_id,
+            client_secret: client_secret,
+        },
+        // ...
+        // For more available options, check out the documentation below
+    })
+
+    gitment.render('comments')
+    // or
+    // gitment.render(document.getElementById('comments'))
+    // or
+    // document.body.appendChild(gitment.render())
 </script>
-<!-- disqus 公共JS代码 end -->
+<!-- gitment 公共JS代码 end -->
 {% endif %}
 
 
