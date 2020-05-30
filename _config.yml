@@ -66,6 +66,8 @@ netease_comment: false
 
 # Gitment settings
 gitment_comment: true
+client_id: 9b9a2d6d647839e9fd8d
+client_secret: 9fbb4cdb0646ee3a5736cf355d099f6cff59be94
 
 
 
