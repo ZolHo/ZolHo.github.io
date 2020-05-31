@@ -76,8 +76,8 @@ client_secret: d8bd130efed3f52af7eace11e1e0b78ed280b568
 # ba_track_id: [your track id]
 
 # Google Analytics
-#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
+ga_track_id: 'UA-167970617-1'            # Format: UA-xxxxxx-xx
+ga_domain: zolho.github.io
 
 
 
