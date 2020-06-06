@@ -29,8 +29,5 @@ tags:
 最后，po一个bug。进北京前的一个信息登记，似乎这个系统除了高烧，不管你多少度都是正常呢...
 ![bug](/img/in-post/life/tiwenapp.jpeg)
 
----
-最最后，祝我滴小宝贝天天开心~ ~虽然画的挺糟糕的。。~
-![61happy](/img/in-post/life/61day.jpg)
 
 _2020年6月2日_
