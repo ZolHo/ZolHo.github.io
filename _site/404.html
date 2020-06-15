@@ -9,7 +9,7 @@
     <meta name="description" content="About something">
     <meta name="keywords"  content="bolg">
     <meta name="theme-color" content="#000000">
-    
+
     <!-- Open Graph -->
     <meta property="og:title" content="404 - ZolHo Blog">
     
@@ -19,7 +19,7 @@
     <meta property="og:image" content="http://localhost:4000/img/avatar-zolho-ny.jpg">
     <meta property="og:url" content="http://localhost:4000/404.html">
     <meta property="og:site_name" content="ZolHo Blog">
-    
+
     <title>404 - ZolHo Blog</title>
 
     <!-- Web App Manifest -->
@@ -27,7 +27,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/img/favicon.ico">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="http://localhost:4000/404.html">
 
@@ -36,6 +36,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- icon CSS -->
+    <link rel="stylesheet" href="/css/NViconsLib.css">
 
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -51,7 +54,19 @@
     <![endif]-->
 
     <!-- ga & ba script hoook -->
-    <script></script>
+    <!-- Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167970617-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167970617-1');
+</script>
+
+
 </head>
 
 
@@ -171,6 +186,7 @@
 
 
 
+
 <header class="intro-header" style="background-image: url('/img/404-bg.jpg')">
   <div class="container">
     <div class="row">
@@ -216,6 +232,26 @@
     </a>
   </li>
   
+
+  <li>
+    <a target="_blank" href="https://space.bilibili.com/2128208">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-stack-1x fa-inverse">B</i>
+      </span>
+    </a>
+  </li>
+  
+
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/5237838813">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
   
   
   
@@ -230,6 +266,7 @@
   
   
 </ul>
+
 
                 <p class="copyright text-muted">
                     Copyright &copy; ZolHo Blog 2020
@@ -307,7 +344,6 @@
 </script>
 
 
-<!-- Google Analytics -->
 
 
 

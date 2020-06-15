@@ -9,7 +9,7 @@
     <meta name="description" content="About something">
     <meta name="keywords"  content="bolg">
     <meta name="theme-color" content="#000000">
-    
+
     <!-- Open Graph -->
     <meta property="og:title" content="ZolHo Blog">
     
@@ -19,7 +19,7 @@
     <meta property="og:image" content="http://localhost:4000/img/avatar-zolho-ny.jpg">
     <meta property="og:url" content="http://localhost:4000/">
     <meta property="og:site_name" content="ZolHo Blog">
-    
+
     <title>ZolHo Blog</title>
 
     <!-- Web App Manifest -->
@@ -27,7 +27,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/img/favicon.ico">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="http://localhost:4000/">
 
@@ -36,6 +36,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- icon CSS -->
+    <link rel="stylesheet" href="/css/NViconsLib.css">
 
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -51,7 +54,19 @@
     <![endif]-->
 
     <!-- ga & ba script hoook -->
-    <script></script>
+    <!-- Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167970617-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167970617-1');
+</script>
+
+
 </head>
 
 
@@ -171,6 +186,7 @@
 
 
 
+
 <header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
   <div class="container">
     <div class="row">
@@ -202,6 +218,75 @@
                 postlist-container
             ">
     			
+<div class="post-preview">
+    <a href="/2020/06/07/study_2006/">
+        <h2 class="post-title">
+            学习日记_2020年6月
+        </h2>
+        
+        <h3 class="post-subtitle">
+            不积小流无以成江河
+        </h3>
+        
+        <div class="post-content-preview">
+            
+                
+
+  2020_06_14
+
+
+
+  leetcode
+    
+      周赛193
+        
+          不同整数的最少数目 - Counter
+          一位数组的动态和 - easy - 前缀和
+          制作 m 束花所需的最少天数 - 还没做出来
+          树节点的第 K 个祖先 - hard - 还没做出来
+        
+ ...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by ZolHo on June 7, 2020
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2020/06/02/goto_BeiJing/">
+        <h2 class="post-title">
+            第一次坐飞机
+        </h2>
+        
+        <h3 class="post-subtitle">
+            前往北京大兴机场
+        </h3>
+        
+        <div class="post-content-preview">
+            
+                
+  第一次坐飞机也来水一篇博文,主要是技术差，没啥好写
+
+
+因为太久没见我爸了，所以六一去北京住一段时间，正好有比较便宜的飞机票，于是乎开启第一次坐飞机
+
+可惜的是，因为缺少经验，买票的时候正好买了飞机翅膀上的座位，如图：
+
+要不然起飞的时候，能看到很多海面上的岛屿，远远看过去，有种看谷歌地图的感觉。
+
+此次的目的地是去年成立的北京大兴机场，据说也是世界数一数二的机场了，因为新，科技第一应...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by ZolHo on June 2, 2020
+    </p>
+</div>
+<hr>
+
 <div class="post-preview">
     <a href="/2020/05/30/the_first_blog/">
         <h2 class="post-title">
@@ -263,12 +348,22 @@
         
         
         
-                <a data-sort="0000" 
+                <a data-sort="0001" 
                     href="/archive/?tag=%E7%94%9F%E6%B4%BB"
                     title="生活"
-                    rel="1">生活</a>
+                    rel="2">生活</a>
         
-                <a data-sort="0000" 
+                <a data-sort="0001" 
+                    href="/archive/?tag=%E6%97%A5%E8%AE%B0"
+                    title="日记"
+                    rel="2">日记</a>
+        
+                <a data-sort="0002" 
+                    href="/archive/?tag=%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95"
+                    title="学习记录"
+                    rel="1">学习记录</a>
+        
+                <a data-sort="0002" 
                     href="/archive/?tag=%E9%9A%8F%E7%AC%94"
                     title="随笔"
                     rel="1">随笔</a>
@@ -306,6 +401,26 @@
     </a>
   </li>
   
+
+  <li>
+    <a target="_blank" href="https://space.bilibili.com/2128208">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-stack-1x fa-inverse">B</i>
+      </span>
+    </a>
+  </li>
+  
+
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/5237838813">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
   
   
   
@@ -320,6 +435,7 @@
   
   
 </ul>
+
   </div>
 </section>
 
@@ -356,6 +472,26 @@
     </a>
   </li>
   
+
+  <li>
+    <a target="_blank" href="https://space.bilibili.com/2128208">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-stack-1x fa-inverse">B</i>
+      </span>
+    </a>
+  </li>
+  
+
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/5237838813">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
   
   
   
@@ -370,6 +506,7 @@
   
   
 </ul>
+
 
                 <p class="copyright text-muted">
                     Copyright &copy; ZolHo Blog 2020
@@ -447,7 +584,6 @@
 </script>
 
 
-<!-- Google Analytics -->
 
 
 

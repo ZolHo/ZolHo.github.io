@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="About something">
+    <meta name="keywords"  content="bolg">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="学习日记_2020年6月 - ZolHo Blog">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="
+
+  2020_06_14
+
+">
+    
+    <meta property="article:published_time" content="2020-06-07T00:00:00Z">
+    
+    
+    <meta property="article:author" content="ZolHo">
+    
+    
+    <meta property="article:tag" content="学习记录">
+    
+    <meta property="article:tag" content="日记">
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar-zolho-ny.jpg">
+    <meta property="og:url" content="http://localhost:4000/2020/06/07/study_2006/">
+    <meta property="og:site_name" content="ZolHo Blog">
+
+    <title>学习日记_2020年6月 - ZolHo Blog</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2020/06/07/study_2006/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- icon CSS -->
+    <link rel="stylesheet" href="/css/NViconsLib.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <!-- Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167970617-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167970617-1');
+</script>
+
+
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">ZolHo Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/archive/">Archive</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/home-bg.jpg');
+        background: ;
+    }
+
+    
+</style>
+
+<header class="intro-header style-text" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/archive/?tag=%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95" title="学习记录">学习记录</a>
+                        
+                        <a class="tag" href="/archive/?tag=%E6%97%A5%E8%AE%B0" title="日记">日记</a>
+                        
+                    </div>
+                    <h1>学习日记_2020年6月</h1>
+                    
+                    <h2 class="subheading">不积小流无以成江河</h2>
+                    <span class="meta">Posted by ZolHo on June 7, 2020</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<hr />
+<blockquote>
+  <p>2020_06_14</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/">周赛193</a>
+        <ul>
+          <li><a href="https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/">不同整数的最少数目</a> - Counter</li>
+          <li><a href="https://leetcode-cn.com/problems/running-sum-of-1d-array/">一位数组的动态和</a> - easy - 前缀和</li>
+          <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/">制作 m 束花所需的最少天数</a> - 还没做出来</li>
+          <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/">树节点的第 K 个祖先</a> - hard - 还没做出来</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>python
+    <ul>
+      <li><a href="https://docs.python.org/zh-cn/3/library/collections.html#collections.Counter">collections</a>
+        <ul>
+          <li>Counter - 统计字典</li>
+          <li>deque - 双端队列，高效增删操作</li>
+          <li>defaultdict - 默认参数类型字典</li>
+          <li>namedtuple - 命名元组</li>
+          <li>OrderedDict - 记录插入顺序，顺序操作更快字典</li>
+          <li>UserDict - 带字典的类</li>
+          <li>UserList</li>
+          <li>UserString</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_13</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/climbing-stairs/">爬楼梯</a>-easy-dp</li>
+      <li><a href="https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries/">查询后的偶数和</a></li>
+      <li><a href="https://leetcode-cn.com/problems/add-two-numbers/">两数相加</a></li>
+    </ul>
+  </li>
+  <li>下棋</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_12</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/3sum/">三数之和</a></li>
+      <li><a href="https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/submissions/">元素和小于等于阈值的正方形的最大边长</a>-二维前缀和</li>
+      <li><a href="https://leetcode-cn.com/problems/sum-swap-lcci/">交换和</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_11</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/daily-temperatures/">每日温度</a></li>
+    </ul>
+  </li>
+  <li>炉石战棋</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_10</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/palindrome-number/">回文数</a>-easy</li>
+      <li><a href="https://leetcode-cn.com/problems/generate-parentheses/">括号生成</a>-回溯</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_09</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/">把数字翻译成字符串</a>-DFS/DP/滚动数组</li>
+      <li><a href="https://leetcode-cn.com/problems/unique-email-addresses/">独特的电子邮件地址</a>-字符串处理</li>
+    </ul>
+  </li>
+  <li>搬砖</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_08</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/satisfiability-of-equality-equations/">等式方程的可满足性</a>-并查集</li>
+      <li><a href="https://leetcode-cn.com/problems/letter-case-permutation/">字母大小全排列</a>-easy/深搜</li>
+    </ul>
+  </li>
+  <li>MachineLearning
+    <ul>
+      <li><a href="https://blog.csdn.net/jinping_shi/article/details/52433975">正则化</a>-特征值筛选/防止过拟合</li>
+      <li><a href="https://blog.csdn.net/weixin_43374551/article/details/83688913">岭回归/Lasso回归</a>-L2正则项/L1正则项</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_07</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/na-ying-bi/">拿硬币</a>-easy/暴力/位移</li>
+      <li><a href="https://leetcode-cn.com/problems/jump-game/">跳跃游戏</a>-伪广搜</li>
+    </ul>
+  </li>
+  <li>MachineLearning
+    <ul>
+      <li><a href="https://blog.csdn.net/weixin_40807247/article/details/82812206">独热编码/one_hot_encoder</a></li>
+      <li><a href="https://github.com/MLEveryday/100-Days-Of-ML-Code/blob/master/Code/Day%202_Simple_Linear_Regression.md">LR by sklearn</a>-线性回归</li>
+      <li><a href="https://www.cnblogs.com/llhthinker/p/5330257.html">Logistic回归</a>-sigmoid函数</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2020/06/02/goto_BeiJing/" data-toggle="tooltip" data-placement="top" title="第一次坐飞机">
+                        Previous<br>
+                        <span>第一次坐飞机</span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+
+                
+
+                
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+
+
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+        <hr class="hidden-sm hidden-xs">
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        
+        
+        
+                <a data-sort="0001" 
+                    href="/archive/?tag=%E7%94%9F%E6%B4%BB"
+                    title="生活"
+                    rel="2">生活</a>
+        
+                <a data-sort="0001" 
+                    href="/archive/?tag=%E6%97%A5%E8%AE%B0"
+                    title="日记"
+                    rel="2">日记</a>
+        
+                <a data-sort="0002" 
+                    href="/archive/?tag=%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95"
+                    title="学习记录"
+                    rel="1">学习记录</a>
+        
+                <a data-sort="0002" 
+                    href="/archive/?tag=%E9%9A%8F%E7%AC%94"
+                    title="随笔"
+                    rel="1">随笔</a>
+    </div>
+</section>
+
+
+                <!-- Friends Blog -->
+                
+            </div>
+
+        
+            <!-- gittalk跟帖 评论框 start -->
+            <div id="gitalk-container" class="gitalk-container col-lg-8 col-lg-offset-2 col-md-10 "></div>
+            <!-- gittalk跟帖 评论框 end -->
+        
+
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- gittalk 公共JS代码 start (一个网页只需插入一次) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var github_id = "Zolho"
+
+    var client_id = "fde3e0cc3fa6d8bdee16"
+    var client_secret = "d8bd130efed3f52af7eace11e1e0b78ed280b568"
+
+
+    var gitalk = new Gitalk({
+  clientID: client_id,
+  clientSecret: client_secret,
+  repo: 'zolho.github.io',
+  owner: 'Zolho',
+  admin: ['Zolho'],
+  id: location.href,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+</script>
+<!-- gittalk 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://www.zhihu.com/people/lancelot9">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse">知</i>
+      </span>
+    </a>
+  </li>
+  
+
+  <li>
+    <a target="_blank" href="https://space.bilibili.com/2128208">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-stack-1x fa-inverse">B</i>
+      </span>
+    </a>
+  </li>
+  
+
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/5237838813">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/ZolHo">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+</ul>
+
+
+                <p class="copyright text-muted">
+                    Copyright &copy; ZolHo Blog 2020
+                    <br>
+                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
+                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
+                        height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true">
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+
+
+<!-- Multi-Lingual -->
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

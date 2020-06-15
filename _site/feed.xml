@@ -5,9 +5,213 @@
     <description>About something</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 May 2020 00:50:00 +0800</pubDate>
-    <lastBuildDate>Sun, 31 May 2020 00:50:00 +0800</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2020 09:58:41 +0800</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2020 09:58:41 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
+    
+      <item>
+        <title>学习日记_2020年6月</title>
+        <description>&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_14&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/&quot;&gt;周赛193&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;不同整数的最少数目&lt;/a&gt; - Counter&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/running-sum-of-1d-array/&quot;&gt;一位数组的动态和&lt;/a&gt; - easy - 前缀和&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/&quot;&gt;制作 m 束花所需的最少天数&lt;/a&gt; - 还没做出来&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/&quot;&gt;树节点的第 K 个祖先&lt;/a&gt; - hard - 还没做出来&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;python
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.python.org/zh-cn/3/library/collections.html#collections.Counter&quot;&gt;collections&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Counter - 统计字典&lt;/li&gt;
+          &lt;li&gt;deque - 双端队列，高效增删操作&lt;/li&gt;
+          &lt;li&gt;defaultdict - 默认参数类型字典&lt;/li&gt;
+          &lt;li&gt;namedtuple - 命名元组&lt;/li&gt;
+          &lt;li&gt;OrderedDict - 记录插入顺序，顺序操作更快字典&lt;/li&gt;
+          &lt;li&gt;UserDict - 带字典的类&lt;/li&gt;
+          &lt;li&gt;UserList&lt;/li&gt;
+          &lt;li&gt;UserString&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_13&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/climbing-stairs/&quot;&gt;爬楼梯&lt;/a&gt;-easy-dp&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries/&quot;&gt;查询后的偶数和&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/add-two-numbers/&quot;&gt;两数相加&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;下棋&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_12&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/3sum/&quot;&gt;三数之和&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/submissions/&quot;&gt;元素和小于等于阈值的正方形的最大边长&lt;/a&gt;-二维前缀和&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/sum-swap-lcci/&quot;&gt;交换和&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_11&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/daily-temperatures/&quot;&gt;每日温度&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;炉石战棋&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_10&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/palindrome-number/&quot;&gt;回文数&lt;/a&gt;-easy&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/generate-parentheses/&quot;&gt;括号生成&lt;/a&gt;-回溯&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_09&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/&quot;&gt;把数字翻译成字符串&lt;/a&gt;-DFS/DP/滚动数组&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/unique-email-addresses/&quot;&gt;独特的电子邮件地址&lt;/a&gt;-字符串处理&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;搬砖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_08&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/satisfiability-of-equality-equations/&quot;&gt;等式方程的可满足性&lt;/a&gt;-并查集&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/letter-case-permutation/&quot;&gt;字母大小全排列&lt;/a&gt;-easy/深搜&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MachineLearning
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/jinping_shi/article/details/52433975&quot;&gt;正则化&lt;/a&gt;-特征值筛选/防止过拟合&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_43374551/article/details/83688913&quot;&gt;岭回归/Lasso回归&lt;/a&gt;-L2正则项/L1正则项&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_07&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/na-ying-bi/&quot;&gt;拿硬币&lt;/a&gt;-easy/暴力/位移&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/jump-game/&quot;&gt;跳跃游戏&lt;/a&gt;-伪广搜&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MachineLearning
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_40807247/article/details/82812206&quot;&gt;独热编码/one_hot_encoder&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/MLEveryday/100-Days-Of-ML-Code/blob/master/Code/Day%202_Simple_Linear_Regression.md&quot;&gt;LR by sklearn&lt;/a&gt;-线性回归&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.cnblogs.com/llhthinker/p/5330257.html&quot;&gt;Logistic回归&lt;/a&gt;-sigmoid函数&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sun, 07 Jun 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/06/07/study_2006/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/07/study_2006/</guid>
+        
+        <category>学习记录</category>
+        
+        <category>日记</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>第一次坐飞机</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;第一次坐飞机也来水一篇博文,主要是技术差，没啥好写&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;因为太久没见我爸了，所以六一去北京住一段时间，正好有比较便宜的飞机票，于是乎开启第一次坐飞机&lt;/p&gt;
+
+&lt;p&gt;可惜的是，因为缺少经验，买票的时候正好买了飞机翅膀上的座位，如图：
+&lt;img src=&quot;/img/in-post/life/feiji.png&quot; alt=&quot;视野都被翅膀挡住了&quot; /&gt;
+要不然起飞的时候，能看到很多海面上的岛屿，远远看过去，有种看谷歌地图的感觉。&lt;/p&gt;
+
+&lt;p&gt;此次的目的地是去年成立的北京大兴机场，据说也是世界数一数二的机场了，因为新，科技第一应该是没问题的。因为没有好的俯瞰视野，所以没有一览机场全貌。不过就从侧面看，也是非常的巨大了。&lt;/p&gt;
+
+&lt;p&gt;进机场之后，随处可见的手推车，电子显示屏，资助机器，直线路上还会有传送带。由于刚建成不久，到处都很新，显得非常气派。
+&lt;img src=&quot;/img/in-post/life/daxingjichang.jpeg&quot; alt=&quot;机场内很多人拍照的景点&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后回去还有高速地铁，大兴机场线，35块钱直达北京市内的地铁站，20分钟可以走40公里，可以说是非常快了。地铁内的座椅也挺豪华，可能这不算地铁了，有一个我不知道的新概念吧。
+&lt;img src=&quot;/img/in-post/life/daxingxian.jpeg&quot; alt=&quot;大兴线&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;最后，po一个bug。进北京前的一个信息登记，似乎这个系统除了高烧，不管你多少度都是正常呢…
+&lt;img src=&quot;/img/in-post/life/tiwenapp.jpeg&quot; alt=&quot;bug&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2020年6月2日&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Jun 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/06/02/goto_BeiJing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/02/goto_BeiJing/</guid>
+        
+        <category>生活</category>
+        
+        <category>随笔</category>
+        
+        
+      </item>
     
       <item>
         <title>第一篇博客</title>
@@ -43,7 +247,7 @@
 
 &lt;p&gt;那时候，总在微博上看到些让人难过的消息，我就想，为什么会这样呢，人生的意义又是什么呢。&lt;/p&gt;
 
-&lt;p&gt;最后我终于想明白了：&lt;em&gt;一切都是没有意义的呀&lt;/em&gt;。从此，我就成了一名&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;虚无主义者&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;最后我终于想明白了：&lt;em&gt;一切都是没有意义的呀&lt;/em&gt;。从此，我就从此走向了&lt;em&gt;虚无主义&lt;/em&gt;。&lt;/p&gt;
 
 &lt;p&gt;可能是在压力过大、精神不稳加别人怂恿下，我和喜欢的女生表白了，结果也理所当然的是不成的。然后，直到考前一天背政治以外，再也没学习了。&lt;/p&gt;
 
@@ -88,7 +292,6 @@
 &lt;p&gt;&lt;strong&gt;上路吧，任何时候都不晚。&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;2020年5月30日写到了31日&lt;/em&gt;&lt;/p&gt;
-
 </description>
         <pubDate>Sat, 30 May 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/05/30/the_first_blog/</link>
@@ -96,7 +299,7 @@
         
         <category>生活</category>
         
-        <category>随笔</category>
+        <category>日记</category>
         
         
       </item>
