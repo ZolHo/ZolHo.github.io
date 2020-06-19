@@ -1,4 +1,68 @@
-I"N<hr />
+I"�<blockquote>
+  <p>2020_06_19</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/valid-palindrome/">验证回文串</a> - easy</li>
+    </ul>
+  </li>
+  <li>numpy</li>
+  <li>pandas</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_18</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/solution/">从先序遍历还原二叉树</a> - hard - 字符串处理 - 栈</li>
+    </ul>
+  </li>
+  <li>炉石新冒险，战棋</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_17</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/best-sightseeing-pair/">最佳观光组合</a></li>
+      <li><a href="https://leetcode-cn.com/problems/median-of-two-sorted-arrays/">寻找两个正序数组的中位数</a> - hard - 二分查找</li>
+      <li><a href="https://leetcode-cn.com/problems/reverse-integer/">整数反转</a></li>
+    </ul>
+  </li>
+  <li>战棋五连鸡</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_16</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/">树节点的第 K 个祖先</a> - hard - 树上倍增</li>
+      <li><a href="https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/">二叉树的序列化与反序列化</a> - hard - 二叉树序列化 - BFS</li>
+    </ul>
+  </li>
+  <li>algorithm
+    <ul>
+      <li><a href="https://blog.csdn.net/jarjingx/article/details/8180560">倍增</a></li>
+      <li><a href="https://blog.csdn.net/saramanda/article/details/54963914">树上倍增</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
 <blockquote>
   <p>2020_06_15</p>
 </blockquote>
@@ -6,10 +70,10 @@
 <ul>
   <li>leetcode
     <ul>
-      <li><a href="https://leetcode-cn.com/problems/longest-common-prefix/">最长公共前缀</a> - easy -  ~边聊天边写，错了6次orz~</li>
+      <li><a href="https://leetcode-cn.com/problems/longest-common-prefix/">最长公共前缀</a> - easy -  <del>边聊天边写，错了6次orz</del></li>
       <li><a href="https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/">转变数组后最接近目标值的数组和</a> - 二分</li>
       <li><a href="https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/">无重复字符的最长子串</a> - 滑动窗口</li>
-      <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/">制作 m 束花所需的最少天数</a> - 二分法</li>
+      <li><a href="https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/">制作 m 束花所需的最少天数</a> - 二分法</li>
     </ul>
   </li>
   <li>python
@@ -31,8 +95,8 @@
         <ul>
           <li><a href="https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/">不同整数的最少数目</a> - Counter</li>
           <li><a href="https://leetcode-cn.com/problems/running-sum-of-1d-array/">一位数组的动态和</a> - easy - 前缀和</li>
-          <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/">制作 m 束花所需的最少天数</a> -  ~还没做出来~</li>
-          <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/">树节点的第 K 个祖先</a> - hard - #还没做出来</li>
+          <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/">制作 m 束花所需的最少天数</a> -  <del>还没做出来</del></li>
+          <li><a href="https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/">树节点的第 K 个祖先</a> - hard - <del>还没做出来</del></li>
         </ul>
       </li>
     </ul>

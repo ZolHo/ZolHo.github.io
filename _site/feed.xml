@@ -5,13 +5,77 @@
     <description>About something</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Jun 2020 19:15:46 +0800</pubDate>
-    <lastBuildDate>Mon, 15 Jun 2020 19:15:46 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2020 22:20:16 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2020 22:20:16 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>学习日记_2020年6月</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;2020_06_19&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/valid-palindrome/&quot;&gt;验证回文串&lt;/a&gt; - easy&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;numpy&lt;/li&gt;
+  &lt;li&gt;pandas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_18&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/solution/&quot;&gt;从先序遍历还原二叉树&lt;/a&gt; - hard - 字符串处理 - 栈&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;炉石新冒险，战棋&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_17&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/best-sightseeing-pair/&quot;&gt;最佳观光组合&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/median-of-two-sorted-arrays/&quot;&gt;寻找两个正序数组的中位数&lt;/a&gt; - hard - 二分查找&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/reverse-integer/&quot;&gt;整数反转&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;战棋五连鸡&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_16&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/&quot;&gt;树节点的第 K 个祖先&lt;/a&gt; - hard - 树上倍增&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/&quot;&gt;二叉树的序列化与反序列化&lt;/a&gt; - hard - 二叉树序列化 - BFS&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;algorithm
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/jarjingx/article/details/8180560&quot;&gt;倍增&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/saramanda/article/details/54963914&quot;&gt;树上倍增&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
 &lt;blockquote&gt;
   &lt;p&gt;2020_06_15&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -22,7 +86,7 @@
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/longest-common-prefix/&quot;&gt;最长公共前缀&lt;/a&gt; - easy -  &lt;del&gt;边聊天边写，错了6次orz&lt;/del&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/&quot;&gt;转变数组后最接近目标值的数组和&lt;/a&gt; - 二分&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/&quot;&gt;无重复字符的最长子串&lt;/a&gt; - 滑动窗口&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/&quot;&gt;制作 m 束花所需的最少天数&lt;/a&gt; - 二分法&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/&quot;&gt;制作 m 束花所需的最少天数&lt;/a&gt; - 二分法&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;python
@@ -45,7 +109,7 @@
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;不同整数的最少数目&lt;/a&gt; - Counter&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/running-sum-of-1d-array/&quot;&gt;一位数组的动态和&lt;/a&gt; - easy - 前缀和&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/&quot;&gt;制作 m 束花所需的最少天数&lt;/a&gt; -  &lt;del&gt;还没做出来&lt;/del&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/&quot;&gt;树节点的第 K 个祖先&lt;/a&gt; - hard - #还没做出来&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/&quot;&gt;树节点的第 K 个祖先&lt;/a&gt; - hard - &lt;del&gt;还没做出来&lt;/del&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
