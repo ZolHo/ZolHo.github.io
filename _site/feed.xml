@@ -5,13 +5,26 @@
     <description>About something</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Jun 2020 22:20:16 +0800</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2020 22:20:16 +0800</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2020 17:09:18 +0800</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2020 17:09:18 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>学习日记_2020年6月</title>
         <description>&lt;blockquote&gt;
+  &lt;p&gt;2020_06_20&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/regular-expression-matching/&quot;&gt;正则表达式匹配&lt;/a&gt; - hard - &lt;del&gt;错了十次&lt;/del&gt; - 可以用  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;有限自动状态机&lt;/code&gt; 或者 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;动态规划&lt;/code&gt; 完成 - 写完都吐了看不下了，希望有机会用dp和自动机写一遍… &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
   &lt;p&gt;2020_06_19&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -63,7 +76,7 @@
 &lt;ul&gt;
   &lt;li&gt;leetcode
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/&quot;&gt;树节点的第 K 个祖先&lt;/a&gt; - hard - 树上倍增&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/&quot;&gt;树节点的第 K 个祖先&lt;/a&gt; - hard - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;树上倍增&lt;/code&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/&quot;&gt;二叉树的序列化与反序列化&lt;/a&gt; - hard - 二叉树序列化 - BFS&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -85,13 +98,13 @@
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/longest-common-prefix/&quot;&gt;最长公共前缀&lt;/a&gt; - easy -  &lt;del&gt;边聊天边写，错了6次orz&lt;/del&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/&quot;&gt;转变数组后最接近目标值的数组和&lt;/a&gt; - 二分&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/&quot;&gt;无重复字符的最长子串&lt;/a&gt; - 滑动窗口&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/&quot;&gt;无重复字符的最长子串&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;滑动窗口&lt;/code&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/&quot;&gt;制作 m 束花所需的最少天数&lt;/a&gt; - 二分法&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;python
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.python.org/zh-cn/3/library/bisect.html?highlight=bisect&quot;&gt;bisect&lt;/a&gt; - 二分数组查找算法&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.python.org/zh-cn/3/library/bisect.html?highlight=bisect&quot;&gt;bisect&lt;/a&gt; - 二分数组查找算法 - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bisect&lt;/code&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -106,7 +119,7 @@
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/&quot;&gt;周赛193&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;不同整数的最少数目&lt;/a&gt; - Counter&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;不同整数的最少数目&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Counter&lt;/code&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/running-sum-of-1d-array/&quot;&gt;一位数组的动态和&lt;/a&gt; - easy - 前缀和&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/&quot;&gt;制作 m 束花所需的最少天数&lt;/a&gt; -  &lt;del&gt;还没做出来&lt;/del&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/&quot;&gt;树节点的第 K 个祖先&lt;/a&gt; - hard - &lt;del&gt;还没做出来&lt;/del&gt;&lt;/li&gt;
