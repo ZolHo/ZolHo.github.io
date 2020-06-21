@@ -5,13 +5,37 @@
     <description>About something</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Jun 2020 00:04:35 +0800</pubDate>
-    <lastBuildDate>Sun, 21 Jun 2020 00:04:35 +0800</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2020 23:41:29 +0800</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2020 23:41:29 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>学习日记_2020年6月</title>
-        <description>&lt;blockquote&gt;
+        <description>&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_21&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/&quot;&gt;二叉树中的最大路径和&lt;/a&gt; - hard - 递归 - 用递归试了两下就过了，害怕&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-194&quot;&gt;周赛194&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;414&lt;/code&gt; - 勉强AC了前三题，终极罚时，自暴自弃，罚了一个多小时
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-194/problems/xor-operation-in-an-array/&quot;&gt;数组异或操作&lt;/a&gt; - easy&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-194/problems/making-file-names-unique/&quot;&gt;保证文件名唯一&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-194/problems/avoid-flood-in-the-city/&quot;&gt;避免洪水泛滥&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-194/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/&quot;&gt;找到最小生成树里的关键边和伪关键边&lt;/a&gt; - hard - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;看了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;稚晖君&lt;/code&gt;的视频，买了个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;51单片机&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;matplotlib&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
   &lt;p&gt;2020_06_20&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -123,7 +147,7 @@
 &lt;ul&gt;
   &lt;li&gt;leetcode
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/&quot;&gt;周赛193&lt;/a&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-193/&quot;&gt;周赛193&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1058&lt;/code&gt;
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;不同整数的最少数目&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Counter&lt;/code&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/running-sum-of-1d-array/&quot;&gt;一位数组的动态和&lt;/a&gt; - easy - 前缀和&lt;/li&gt;
