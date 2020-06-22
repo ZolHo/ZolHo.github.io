@@ -5,13 +5,26 @@
     <description>About something</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Jun 2020 23:47:27 +0800</pubDate>
-    <lastBuildDate>Sun, 21 Jun 2020 23:47:27 +0800</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2020 22:40:09 +0800</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2020 22:40:09 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>学习日记_2020年6月</title>
         <description>&lt;hr /&gt;
+&lt;p&gt;2020_06_22&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/pattern-matching-lcci/&quot;&gt;模式匹配&lt;/a&gt; - 因为想少写几句代码，结果错N次&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;边缘计算第一章&lt;/li&gt;
+  &lt;li&gt;宝贝生日&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
 &lt;blockquote&gt;
   &lt;p&gt;2020_06_21&lt;/p&gt;
 &lt;/blockquote&gt;
