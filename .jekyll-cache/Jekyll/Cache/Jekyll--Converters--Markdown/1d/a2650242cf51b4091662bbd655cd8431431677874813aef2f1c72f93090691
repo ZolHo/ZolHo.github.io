@@ -1,5 +1,41 @@
-I"u(<hr />
-<p>2020_06_22</p>
+I"�,<hr />
+<blockquote>
+  <p>2020_06_24</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/3sum-closest/">最接近的三数之和</a> - 想二分做，结果一直错，最后还是普通过了..</li>
+    </ul>
+  </li>
+  <li>51单片机
+    <ul>
+      <li>编译软件<code class="language-plaintext highlighter-rouge">keil</code> - 烧录软件<code class="language-plaintext highlighter-rouge">STC-ISP</code></li>
+      <li><code class="language-plaintext highlighter-rouge">intrins</code>函数 - <code class="language-plaintext highlighter-rouge">_crol_</code>循环左移 - <code class="language-plaintext highlighter-rouge">_cror_</code>循环右移 - <code class="language-plaintext highlighter-rouge">_nop_</code>空操作</li>
+      <li>LED跑马灯</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_23</p>
+</blockquote>
+
+<ul>
+  <li>干活 - 手被划了十多道口子</li>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/add-binary/">二进制求和</a> - easy</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_22</p>
+</blockquote>
 
 <ul>
   <li>leetcode
