@@ -1,4 +1,125 @@
-I"�,<hr />
+I"�?<h3 id="总结">总结</h3>
+
+<ul>
+  <li>leetcode：刷题约50道，周赛参加四次，排名分别为1058、414、165、455</li>
+  <li>机器学习：吴恩达视频看了点，用最基础的东西勉强完成了泰坦尼克号项目，pandas、numpy、scikitlearn入门</li>
+  <li>物联网：几个单片机小实验</li>
+  <li>娱乐：隐秘的角落、巴霍巴利王、黑客帝国</li>
+  <li>待完成：N道题、观后感算了吧..</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_30</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/">用两个栈实现队列</a> - easy</li>
+    </ul>
+  </li>
+  <li>看了杂七杂八的，约等于啥也没学习</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_29</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/kth-largest-element-in-an-array/">数组中的第K个最大元素</a> - 可以用大根堆，但我用的sort..</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">隐秘的角落</code> - 今天有点事情，没心态学习，干脆看完了这部剧，有空写个观后感吧 <code class="language-plaintext highlighter-rouge">待完成</code></li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_28</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/minimum-size-subarray-sum/">长度最小的子数组</a></li>
+      <li><a href="https://leetcode-cn.com/contest/weekly-contest-195/">周赛195</a> - <code class="language-plaintext highlighter-rouge">455</code> - 好难，就做出两题，第三题的思路超时
+        <ul>
+          <li><a href="https://leetcode-cn.com/problems/path-crossing/">判断路径是否相交</a></li>
+          <li><a href="https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/">检查数组对是否可以被 k 整除</a></li>
+          <li><a href="https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/">满足条件的子序列数目</a> - <code class="language-plaintext highlighter-rouge">待完成</code> - 递推表达式想了好久，最后写出来了，不过超时，也正常</li>
+          <li><a href="https://leetcode-cn.com/problems/max-value-of-equation/">满足不等式的最大值</a> - <code class="language-plaintext highlighter-rouge">待完成</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>干活</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_27</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/first-missing-positive/">缺失的第一个正数</a> - hard - <del>leetcode的运行时间很不靠谱呀</del></li>
+      <li><a href="https://leetcode-cn.com/contest/biweekly-contest-29">双周赛29</a> - <code class="language-plaintext highlighter-rouge">165</code> - <code class="language-plaintext highlighter-rouge">AK</code> - 第一题求平均数没平均还错一次…共错3次，比上次好很多了
+        <ul>
+          <li><a href="https://leetcode-cn.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/">去掉最低工资和最高工资后的工资平均值</a></li>
+          <li><a href="https://leetcode-cn.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/">n 的第 k 个因子</a></li>
+          <li><a href="https://leetcode-cn.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/">删掉一个元素以后全为 1 的最长子数组</a></li>
+          <li><a href="https://leetcode-cn.com/contest/biweekly-contest-29/problems/parallel-courses-ii/">并行课程 II</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">隐秘的角落</code> - 好剧，心疼男主</li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_26</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/remove-duplicate-node-lcci/">移除重复节点</a> - easy</li>
+    </ul>
+  </li>
+  <li>51单片机
+    <ul>
+      <li>独立按键的原理是按下接地</li>
+      <li><code class="language-plaintext highlighter-rouge">定时器/计数器</code></li>
+      <li><a href="http://www.elecfans.com/d/639031.html">矩阵键盘</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<blockquote>
+  <p>2020_06_25</p>
+</blockquote>
+
+<ul>
+  <li>leetcode
+    <ul>
+      <li><a href="https://leetcode-cn.com/problems/word-break/">单词拆分</a> - DP</li>
+    </ul>
+  </li>
+  <li>51单片机
+    <ul>
+      <li>用网上的蜂鸣器发音模板，输入音调节奏调了一首塞尔达摇篮曲</li>
+      <li>根据文档控制<code class="language-plaintext highlighter-rouge">LCD-1602</code>显示屏显示字符</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
 <blockquote>
   <p>2020_06_24</p>
 </blockquote>
@@ -86,7 +207,6 @@
       <li><a href="https://www.kaggle.com/c/titanic/overview">Titanic</a> - 勉勉强强把数据跑出来了，用的logistics回归,,,最后也就0.73，好像比默认的数据还低了一点。。不过好歹也算是第一次走了一遍流程</li>
     </ul>
   </li>
-  <li>吵架架</li>
 </ul>
 
 <hr />

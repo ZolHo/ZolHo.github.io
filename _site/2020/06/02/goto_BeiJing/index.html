@@ -30,8 +30,8 @@
     <meta property="article:tag" content="随笔">
     
     
-    <meta property="og:image" content="http://localhost:4000/img/avatar-zolho-ny.jpg">
-    <meta property="og:url" content="http://localhost:4000/2020/06/02/goto_BeiJing/">
+    <meta property="og:image" content="http://localhost:4001/img/avatar-zolho-ny.jpg">
+    <meta property="og:url" content="http://localhost:4001/2020/06/02/goto_BeiJing/">
     <meta property="og:site_name" content="ZolHo Blog">
 
     <title>第一次坐飞机 - ZolHo Blog</title>
@@ -43,7 +43,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2020/06/02/goto_BeiJing/">
+    <link rel="canonical" href="http://localhost:4001/2020/06/02/goto_BeiJing/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -57,7 +57,7 @@
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <!-- Hux change font-awesome CDN to qiniu -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//cdn.bootcdn.net/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -336,25 +336,40 @@
         
         
         
-                <a data-sort="0001" 
+                <a data-sort="0003" 
                     href="/archive/?tag=%E7%94%9F%E6%B4%BB"
                     title="生活"
                     rel="2">生活</a>
         
-                <a data-sort="0001" 
+                <a data-sort="0002" 
                     href="/archive/?tag=%E6%97%A5%E8%AE%B0"
                     title="日记"
-                    rel="2">日记</a>
+                    rel="3">日记</a>
         
-                <a data-sort="0002" 
+                <a data-sort="0003" 
                     href="/archive/?tag=%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95"
                     title="学习记录"
-                    rel="1">学习记录</a>
+                    rel="2">学习记录</a>
         
-                <a data-sort="0002" 
+                <a data-sort="0004" 
+                    href="/archive/?tag=%E6%8A%80%E6%9C%AF"
+                    title="技术"
+                    rel="1">技术</a>
+        
+                <a data-sort="0004" 
+                    href="/archive/?tag=%E7%88%AC%E8%99%AB"
+                    title="爬虫"
+                    rel="1">爬虫</a>
+        
+                <a data-sort="0004" 
                     href="/archive/?tag=%E9%9A%8F%E7%AC%94"
                     title="随笔"
                     rel="1">随笔</a>
+        
+                <a data-sort="0004" 
+                    href="/archive/?tag=python"
+                    title="python"
+                    rel="1">python</a>
     </div>
 </section>
 
@@ -510,7 +525,7 @@ gitalk.render('gitalk-container')
                     Powered by <a href="http://huangxuan.me">Hux Blog</a> |
                     <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
                         height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true">
+                        >
                     </iframe>
                 </p>
             </div>
@@ -573,7 +588,7 @@ gitalk.render('gitalk-container')
 
 <!--fastClick.js -->
 <script>
-    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+    async("//lib.baomitu.com/fastclick/1.0.6/fastclick.min.js", function () {
         var $nav = document.querySelector("nav");
         if ($nav) FastClick.attach($nav);
     })

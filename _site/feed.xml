@@ -3,15 +3,641 @@
   <channel>
     <title>ZolHo Blog</title>
     <description>About something</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 Jun 2020 20:10:16 +0800</pubDate>
-    <lastBuildDate>Wed, 24 Jun 2020 20:10:16 +0800</lastBuildDate>
+    <link>http://localhost:4001/</link>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 30 Jul 2020 00:36:05 +0800</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2020 00:36:05 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
+        <title>Python多线程爬虫爬取图片资源</title>
+        <description>&lt;p&gt;**&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Jul 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2020/07/24/pyspi_0/</link>
+        <guid isPermaLink="true">http://localhost:4001/2020/07/24/pyspi_0/</guid>
+        
+        <category>python</category>
+        
+        <category>爬虫</category>
+        
+        <category>技术</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>学习日记_2020年7月</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;2020_07_29&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;wine, exagear失败&lt;/li&gt;
+  &lt;li&gt;咸鱼&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_28&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;帮我爸干活&lt;/li&gt;
+  &lt;li&gt;买了个域名，弄的bitcoin支付，没想到买了之后提个币都要40块手续费，血亏&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_27&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/is-subsequence/submissions/&quot;&gt;判断子序列&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;搭网站&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_26&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-199/&quot;&gt;周赛-199&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3129&lt;/code&gt; - 封号没什么激情认真打了，家里也吵，做了一题，看了最后一题没写出来
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/shuffle-string/&quot;&gt;重新排列字符串&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;美化windows，细致活，还重装了一次&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_25&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-31/&quot;&gt;双周赛-31&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;962&lt;/code&gt; - A了两题没看了
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-31/problems/count-odd-numbers-in-an-interval-range/&quot;&gt;在区间范围内统计奇数数目&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-31/problems/number-of-good-ways-to-split-a-string/&quot;&gt;字符串的好分割数目&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;配置新电脑&lt;/li&gt;
+  &lt;li&gt;世贸天阶&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_24&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;配置新的台式电脑&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_23&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/minimum-path-sum/&quot;&gt;最小路径和&lt;/a&gt; - 标准dp&lt;/li&gt;
+  &lt;li&gt;多线程爬虫&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_22&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/&quot;&gt;旋转数组的最小数字&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_21&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/unique-binary-search-trees-ii/&quot;&gt;不同的二叉搜索树 II&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;晕，LeetCode账号禁赛一个月，我觉得我只是对特例用特殊方法算，并没有打表。要是我的特判条件没那么无脑，那肯定和正常解答一样的&lt;/li&gt;
+  &lt;li&gt;生日吃大餐&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_20&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/&quot;&gt;两数之和 II - 输入有序数组&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;出去干活&lt;/li&gt;
+  &lt;li&gt;winapi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_19&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-198/&quot;&gt;周赛198&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1029&lt;/code&gt; - 好气呀，差点可以拿个微软的杯子
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-198/problems/water-bottles/&quot;&gt;换酒问题&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-198/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/&quot;&gt;子树中标签相同的节点数&lt;/a&gt; - dfs一个特例过不去，最后特判过了QAQ，又做了好久，pycharm都给我卡死了&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-198/problems/maximum-number-of-non-overlapping-substrings/&quot;&gt;最多的不重叠子字符串&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-198/problems/find-a-value-of-a-mysterious-function-closest-to-target/&quot;&gt;找到最接近目标值的函数值&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;格盘重装了mac，受不了经常卡的bug，以前需要配置半天的环境，现在分分钟都搞定了，时间真快&lt;/li&gt;
+  &lt;li&gt;摸鱼&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_18&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/interleaving-string/&quot;&gt;交错字符串&lt;/a&gt; - 递归+记忆剪枝&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;干活&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_17&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/search-insert-position/&quot;&gt;搜索插入位置&lt;/a&gt; - bisect&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;生病，打炉石&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_16&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/is-graph-bipartite/&quot;&gt;判断二分图&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;其他
+    &lt;ul&gt;
+      &lt;li&gt;一起看&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;坡道上的家&lt;/code&gt;，描绘日本家庭伦理问题，女性的家庭地位，全职主妇面临的矛盾与问题。
+话说日本是挺敢拍的，但是并没什么用，环境并不会因为一部电视剧发生改变，它的观众也不会是它想揭露的对象。
+人类本身不会因为科技进步而剔除生物本能，历史是会不断重演的，人还是原来的人。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_15&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/unique-binary-search-trees/&quot;&gt;不同的二叉搜索树&lt;/a&gt; - dp&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;预计干一天活 &lt;em&gt;确实干了一天活&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_14&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/triangle/&quot;&gt;三角形最小路径和&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;娱乐
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;元龙&lt;/code&gt; - 爽文国漫，爽一爽 穿越之我叫特种兵&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_13&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/&quot;&gt;两个数组的交集 II&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;电影
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;黑衣人&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;黑衣人2&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;疯狂的石头&lt;/code&gt; - 一起看的嘿嘿嘿，搞笑，神作，伏笔与各条线路处理的都十分合理和巧妙&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_12&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/&quot;&gt;重建二叉树&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/dungeon-game/&quot;&gt;地下城游戏&lt;/a&gt; - 反向DP，用正向的有问题，成了贪心算法，没想到要反着来&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/hamming-distance/&quot;&gt;汉明距离&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/merge-two-binary-trees/&quot;&gt;合并二叉树&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/invert-binary-tree/&quot;&gt;翻转二叉树&lt;/a&gt; - 讲个笑话，homebrew的作者因为没有手写出这道题被谷歌拒了&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/&quot;&gt;二叉树的最大深度&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/reverse-linked-list/&quot;&gt;反转链表&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/single-number/&quot;&gt;只出现一次的数字&lt;/a&gt; - 异或&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/majority-element/&quot;&gt;多数元素&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/move-zeroes/submissions/&quot;&gt;移动零&lt;/a&gt; - 双数组&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-197/&quot;&gt;周赛197&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;728&lt;/code&gt; - 3分钟前两题，第三题最后都没做出来，想了各种剪枝都过不了，过了的是bfs，我是dfs…
+        &lt;ul&gt;
+          &lt;li&gt;好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/&quot;&gt;仅含 1 的子串数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/path-with-maximum-probability/&quot;&gt;概率最大的路径&lt;/a&gt; - 哭了，广搜一遍过&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-197/problems/best-position-for-a-service-centre/&quot;&gt;服务中心的最佳位置&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;模拟退火&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;梯度下降&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;电影
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;赌圣&lt;/code&gt; - 还行吧，有时间看看赌神&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缝纫机乐队&lt;/code&gt; - 呜呜，好多地方看得起鸡皮疙瘩，差点要哭了，好可惜没有在电影院看到。很久之前看到那段合奏的fusion就想看看了，当时要vip，就懒得弄了。看得挺感慨的。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_11&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/&quot;&gt;计算右侧小于当前元素的个数&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-30&quot;&gt;双周赛30&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;617&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AK&lt;/code&gt; - A掉第四题提升了100名….这么简单的嘛..
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-30/problems/reformat-date/&quot;&gt;转变日期格式&lt;/a&gt; - string处理&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-30/problems/range-sum-of-sorted-subarray-sums/&quot;&gt;子数组和排序后的区间和&lt;/a&gt; - 前缀和&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-30/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/&quot;&gt; 三次操作后最大值与最小值的最小差&lt;/a&gt; - emmm,没啥好说的&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-30/problems/stone-game-iv/&quot;&gt;石子游戏 IV&lt;/a&gt; - 博弈，用的状态转移来做，但是有的状态是叠加的，最后灵机一动，把有叠加的判负，最后还存在获胜路径胜利路径判胜，就过了，可能是蒙过的&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;做胃镜…有点痛苦&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_10&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/&quot;&gt;最佳买卖股票时机含冷冻期&lt;/a&gt; - dp&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;概率统计&lt;/li&gt;
+  &lt;li&gt;划水&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_09&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/re-space-lcci/&quot;&gt;恢复空格&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;划水，看动漫&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_08&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/diving-board-lcci/&quot;&gt;跳水板&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/&quot;&gt;最多 K 次交换相邻数位后得到的最小整数&lt;/a&gt; - 整一天，超时，不整了&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_07&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/path-sum/&quot;&gt;路径总和&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/longest-valid-parentheses/&quot;&gt;最长有效括号&lt;/a&gt; - 一维dp&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;开黑&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_06&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/unique-paths-ii/&quot;&gt;不同路径 II&lt;/a&gt; - 简单dp&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;医院待了一天&lt;/li&gt;
+  &lt;li&gt;一起看了个电影&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;催眠 裁决&lt;/code&gt;，还ok吧，就开催眠挂&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_05&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/wildcard-matching/&quot;&gt;通配符匹配&lt;/a&gt; - 错一板，之前做过类似，这次得&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;记忆化&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-196/&quot;&gt;周赛196&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;977&lt;/code&gt; - 哭了，7分钟做完12，选第四题做，结果到最后还是有超时,早知道做第三题还能混个好点的排名
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-196/problems/can-make-arithmetic-progression-from-sequence/&quot;&gt;判断能否形成等差数列&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-196/problems/last-moment-before-all-ants-fall-out-of-a-plank/&quot;&gt;所有蚂蚁掉下来前的最后一刻&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-196/problems/count-submatrices-with-all-ones/&quot;&gt;统计全 1 子矩形&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-196/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/&quot;&gt;最多 K 次交换相邻数位后得到的最小整数&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_04&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;啥也没干，去了河北&lt;/li&gt;
+  &lt;li&gt;晚上去光影街吃宵夜去了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_03&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/&quot;&gt;将有序数组转换为二叉搜索树&lt;/a&gt; - 二分&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;帮我爸公司整了个西数固态，速度杠杠滴&lt;/li&gt;
+  &lt;li&gt;看了看自己搭建nas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_02&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/&quot;&gt;有序矩阵中第K小的元素&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;上午去医院，结果我爸不会预约，没弄上&lt;/li&gt;
+  &lt;li&gt;下午去外面吃东西，吃完跟他干活&lt;/li&gt;
+  &lt;li&gt;晚上回来听我爸吹水&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_01&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/&quot;&gt;最长重复子数组&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;出门，和他们逛了西单的苹果店，王府井的索尼体验店、小米之家。&lt;br /&gt;
+苹果的东西就是好看，牛逼，那大屏幕，那分辨率。&lt;br /&gt;
+索尼那音响，那8K大电视，那色彩，那音效，那VR，爱了爱了。&lt;br /&gt;
+阿姨在我的带领下种草索尼一万多的音响，等有钱了会买吧。我以后家里，都得有&lt;del&gt;（做梦中）&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 01 Jul 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2020/07/01/study_20071/</link>
+        <guid isPermaLink="true">http://localhost:4001/2020/07/01/study_20071/</guid>
+        
+        <category>学习记录</category>
+        
+        <category>日记</category>
+        
+        
+      </item>
+    
+      <item>
         <title>学习日记_2020年6月</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;h3 id=&quot;总结&quot;&gt;总结&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode：刷题约50道，周赛参加四次，排名分别为1058、414、165、455&lt;/li&gt;
+  &lt;li&gt;机器学习：吴恩达视频看了点，用最基础的东西勉强完成了泰坦尼克号项目，pandas、numpy、scikitlearn入门&lt;/li&gt;
+  &lt;li&gt;物联网：几个单片机小实验&lt;/li&gt;
+  &lt;li&gt;娱乐：隐秘的角落、巴霍巴利王、黑客帝国&lt;/li&gt;
+  &lt;li&gt;待完成：N道题、观后感算了吧..&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_30&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/&quot;&gt;用两个栈实现队列&lt;/a&gt; - easy&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;看了杂七杂八的，约等于啥也没学习&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_29&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/kth-largest-element-in-an-array/&quot;&gt;数组中的第K个最大元素&lt;/a&gt; - 可以用大根堆，但我用的sort..&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;隐秘的角落&lt;/code&gt; - 今天有点事情，没心态学习，干脆看完了这部剧，有空写个观后感吧 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_28&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/minimum-size-subarray-sum/&quot;&gt;长度最小的子数组&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-195/&quot;&gt;周赛195&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;455&lt;/code&gt; - 好难，就做出两题，第三题的思路超时
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/path-crossing/&quot;&gt;判断路径是否相交&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/&quot;&gt;检查数组对是否可以被 k 整除&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/&quot;&gt;满足条件的子序列数目&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt; - 递推表达式想了好久，最后写出来了，不过超时，也正常&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/max-value-of-equation/&quot;&gt;满足不等式的最大值&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;待完成&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;干活&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_27&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/first-missing-positive/&quot;&gt;缺失的第一个正数&lt;/a&gt; - hard - &lt;del&gt;leetcode的运行时间很不靠谱呀&lt;/del&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-29&quot;&gt;双周赛29&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;165&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AK&lt;/code&gt; - 第一题求平均数没平均还错一次…共错3次，比上次好很多了
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/&quot;&gt;去掉最低工资和最高工资后的工资平均值&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/&quot;&gt;n 的第 k 个因子&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/&quot;&gt;删掉一个元素以后全为 1 的最长子数组&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-29/problems/parallel-courses-ii/&quot;&gt;并行课程 II&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;隐秘的角落&lt;/code&gt; - 好剧，心疼男主&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_26&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/remove-duplicate-node-lcci/&quot;&gt;移除重复节点&lt;/a&gt; - easy&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;51单片机
+    &lt;ul&gt;
+      &lt;li&gt;独立按键的原理是按下接地&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;定时器/计数器&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.elecfans.com/d/639031.html&quot;&gt;矩阵键盘&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2020_06_25&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/word-break/&quot;&gt;单词拆分&lt;/a&gt; - DP&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;51单片机
+    &lt;ul&gt;
+      &lt;li&gt;用网上的蜂鸣器发音模板，输入音调节奏调了一首塞尔达摇篮曲&lt;/li&gt;
+      &lt;li&gt;根据文档控制&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LCD-1602&lt;/code&gt;显示屏显示字符&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
 &lt;blockquote&gt;
   &lt;p&gt;2020_06_24&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -99,7 +725,6 @@
       &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/c/titanic/overview&quot;&gt;Titanic&lt;/a&gt; - 勉勉强强把数据跑出来了，用的logistics回归,,,最后也就0.73，好像比默认的数据还低了一点。。不过好歹也算是第一次走了一遍流程&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;吵架架&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -342,8 +967,8 @@
 &lt;hr /&gt;
 </description>
         <pubDate>Sun, 07 Jun 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/06/07/study_2006/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/06/07/study_2006/</guid>
+        <link>http://localhost:4001/2020/06/07/study_2006/</link>
+        <guid isPermaLink="true">http://localhost:4001/2020/06/07/study_2006/</guid>
         
         <category>学习记录</category>
         
@@ -380,8 +1005,8 @@
 &lt;p&gt;&lt;em&gt;2020年6月2日&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Jun 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/06/02/goto_BeiJing/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/06/02/goto_BeiJing/</guid>
+        <link>http://localhost:4001/2020/06/02/goto_BeiJing/</link>
+        <guid isPermaLink="true">http://localhost:4001/2020/06/02/goto_BeiJing/</guid>
         
         <category>生活</category>
         
@@ -471,8 +1096,8 @@
 &lt;p&gt;&lt;em&gt;2020年5月30日写到了31日&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 May 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/05/30/the_first_blog/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/05/30/the_first_blog/</guid>
+        <link>http://localhost:4001/2020/05/30/the_first_blog/</link>
+        <guid isPermaLink="true">http://localhost:4001/2020/05/30/the_first_blog/</guid>
         
         <category>生活</category>
         
