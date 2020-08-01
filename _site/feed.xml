@@ -5,9 +5,30 @@
     <description>About something</description>
     <link>http://localhost:4001/</link>
     <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Jul 2020 00:45:23 +0800</pubDate>
-    <lastBuildDate>Thu, 30 Jul 2020 00:45:23 +0800</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2020 09:25:54 +0800</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2020 09:25:54 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
+    
+      <item>
+        <title>学习日记_2020年8月</title>
+        <description>&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_01&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sat, 01 Aug 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2020/08/01/study08/</link>
+        <guid isPermaLink="true">http://localhost:4001/2020/08/01/study08/</guid>
+        
+        <category>学习记录</category>
+        
+        <category>日记</category>
+        
+        
+      </item>
     
       <item>
         <title>Python多线程爬虫爬取图片资源</title>
@@ -28,7 +49,38 @@
     
       <item>
         <title>学习日记_2020年7月</title>
-        <description>&lt;blockquote&gt;
+        <description>&lt;h3 id=&quot;总结&quot;&gt;总结&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;leetcode周赛600-1k多吧, 被禁赛也是没刷题和比赛的激情了&lt;/li&gt;
+  &lt;li&gt;大半的时间帮我爸干活去了, 他那些事, 工作不一定多少, 但就是得在外面跑一天&lt;/li&gt;
+  &lt;li&gt;装电脑, 买域名&amp;amp;服务器&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_31&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;又干了半天活&lt;/li&gt;
+  &lt;li&gt;整虚拟机还没整好，本来24号开始整，整两天就行了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_07_30&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;又给我爸干半天活&lt;/li&gt;
+  &lt;li&gt;更换风扇硅脂，散热好多了&lt;/li&gt;
+  &lt;li&gt;以后要买朝南的房子种西瓜&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;2020_07_29&lt;/p&gt;
 &lt;/blockquote&gt;
 
