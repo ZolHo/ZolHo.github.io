@@ -6,7 +6,7 @@ email: cc.lancelot9@gmail.com
 description: "About something"
 keyword: "bolg"
 url: "https://ZolHo.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
