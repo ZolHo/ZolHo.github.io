@@ -5,23 +5,183 @@
     <description>About something</description>
     <link>http://localhost:4001/</link>
     <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Aug 2020 09:25:54 +0800</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2020 09:25:54 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Aug 2020 21:53:40 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Aug 2020 21:53:40 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>学习日记_2020年8月</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;2020_08_15&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_14&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;捣鼓树莓派&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_13&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;终于上到了传说&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_12&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上分,在钻3被摩擦&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_11&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;皇家菜博物馆吃晚饭&lt;/li&gt;
+  &lt;li&gt;打牌, 干活&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_10&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;改机票, 咸鱼&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_09&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-201/&quot;&gt;周赛201&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2562&lt;/code&gt; - 电视真好
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-201/problems/make-the-string-great/&quot;&gt;整理字符串&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-201/problems/find-kth-bit-in-nth-binary-string/&quot;&gt;找出第 N 个二进制字符串中的第 K 位&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_08&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;看电影&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;误杀&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/biweekly-contest-32/&quot;&gt;双周赛32&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1385&lt;/code&gt; - 随便写写
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/can-convert-string-in-k-moves/submissions/&quot;&gt;K 次操作转变字符串&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_07&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;一起看男高日&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_06&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;打牌&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_05&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/house-robber-iii/&quot;&gt;打家劫舍 III&lt;/a&gt; - 树上dp - python写起来真简洁&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_04&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/&quot;&gt;两个链表的第一个公共节点&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/course-schedule/&quot;&gt;课程表&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;密码学课程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_03&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;约等于啥也没干&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020_08_02&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/contest/weekly-contest-200&quot;&gt;周赛-200&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1170&lt;/code&gt; - 碰巧看到了就参加了
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/count-good-triplets/&quot;&gt;统计好三元组&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/find-the-winner-of-an-array-game/&quot;&gt;找出数组游戏的赢家&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/minimum-swaps-to-arrange-a-binary-grid/&quot;&gt;排布二进制网格的最少交换次数&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/&quot;&gt;二叉树展开为链表&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;vim再入门&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;2020_08_01&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;装双系统&lt;/li&gt;
+  &lt;li&gt;something wrong&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;hr /&gt;
 </description>
         <pubDate>Sat, 01 Aug 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4001/2020/08/01/study08/</link>
-        <guid isPermaLink="true">http://localhost:4001/2020/08/01/study08/</guid>
+        <link>http://localhost:4001/2020/08/01/study2008/</link>
+        <guid isPermaLink="true">http://localhost:4001/2020/08/01/study2008/</guid>
         
         <category>学习记录</category>
         
@@ -32,7 +192,137 @@
     
       <item>
         <title>Python多线程爬虫爬取图片资源</title>
-        <description>&lt;p&gt;**&lt;/p&gt;
+        <description>&lt;h1 id=&quot;如何制作一个多线程的爬虫&quot;&gt;如何制作一个多线程的爬虫&lt;/h1&gt;
+
+&lt;h3 id=&quot;前言&quot;&gt;前言&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;目标:&lt;/strong&gt; 通过多线程提高爬取图片资源站资源的效率&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;前置知识:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;使用python发起http请求&lt;/li&gt;
+      &lt;li&gt;使用BeautifulSoup或其他库解析请求返回的网站文本&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1-何为生产者消费者模式&quot;&gt;1. 何为生产者消费者模式&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;生产着消费者问题描述了一个场景, 存在若干生产物品的生产者和若干消费物品的消费者,以及一个容量有限的仓库&lt;br /&gt;
+生产者不能生产超过仓库容量的物品, 消费者也不能在仓库为空时消费物品&lt;br /&gt;
+为此, 我们需要在仓库满时挂起生产者的, 在仓库空时挂起消费者以实现两者之间的同步&lt;/p&gt;
+
+&lt;p&gt;在我们目标下, 我们需要若干生产者线程生产资源的链接, 若干消费者线程获取链接并下载内容&lt;br /&gt;
+单线程时, 我们需要&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;获取链接-&amp;gt;进行下载&lt;/code&gt;这样的循环操作, 由于下载时候是较费时的IO操作, 获取链接主要是CPU操作, 将它们分离开来显然是可以节省相互等待的时间的&lt;br /&gt;
+于是我们可以有若干线程同时爬取资源链接, 若干线程同时进行下载操作&lt;/p&gt;
+
+&lt;p&gt;所以我们需要一个消费者线程, 一个生产者线程, 以及一个线程安全的连接池&lt;br /&gt;
+在python中, queue包就是实现了线程安全的一个队列, 我们可以使用他作为连接池&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Producter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;threading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# 生产者模型：解析页面，将得到的图片地址放入img图片队列中
+&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;#初始化
+&lt;/span&gt;      &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;#实现消费者模型的主要业务逻辑
+&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;# 当页面队列为空，生产者停止生产
+&lt;/span&gt;          &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+              &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;# 获取url队列的对象，进行页面解析
+&lt;/span&gt;          &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parse_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;parse_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# 解析页面并获取链接
+&lt;/span&gt;      &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Consumer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;threading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# 消费者模型的主要业务逻辑
+&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# 初始化
+&lt;/span&gt;      &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# 读取img队列的链接并下载到本地
+&lt;/span&gt;      &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;# 当解析队列和图片链接队列都为空时退出
+&lt;/span&gt;          &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img_queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+              &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这样, 一个基本的生产者消费者模式的框架就有了, 我们实现里面的功能, 并在主线程开启若干线程即可&lt;/p&gt;
+
+&lt;h2 id=&quot;2-实现过程中的问题&quot;&gt;2. 实现过程中的问题&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;实现爬取页面里的其他页面链接&quot;&gt;实现爬取页面里的其他页面链接&lt;/h4&gt;
+&lt;p&gt;由于我们不可能只爬取固定页面的资源, 我们需要在爬取图片链接的同时, 将其他的页面抓取到生产者的队列中&lt;br /&gt;
+实现这个功能并不难, 但网页的链接比我想的多的多, 很快就到达了queue设置的上限&lt;br /&gt;
+到达上线后, 生产者线程就开始占着cpu划水了, 因为这个问题导致提取图片资源效率极低, 这是后来才发现的, 后面说如何处理&lt;br /&gt;
+另一个, 由于存在大量链接以及循环引用的存在, 链接极易重复, 如果用遍历来查重我觉得效率太低了, 于是使用了hash实现的python中的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;set&lt;/code&gt;查重页面以及图片链接, 这是非线程安全的, 但问题不大&lt;/p&gt;
+
+&lt;h4 id=&quot;解决各种杂症&quot;&gt;解决各种杂症&lt;/h4&gt;
+&lt;p&gt;修修改改实现大致功能运行后, 下载一小段时间就开始卡住, 极慢的下载
+排查后发现是页面链接太多到达了queue上限&lt;br /&gt;
+而且我认为按爬取的顺序来访问页面, 可能效率没有访问的好&lt;br /&gt;
+于是我对一个页面中的所有链接进行python的切片, 每隔step个链接就加入一个到队列中&lt;br /&gt;
+并且判断队列的内容长度, 如果太多了就加大step, 反之亦反&lt;br /&gt;
+这样处理之后一运行, 下载立马全速进行, 之前卡卡嗖嗖的下了几百个图, 改了之后下了一个小时也没见变慢&lt;br /&gt;
+but我的硬盘会撑不住, 下了快一万张图后停下了, 这次尝试也算是成功了&lt;/p&gt;
+
+&lt;h2 id=&quot;3-总结&quot;&gt;3. 总结&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;在实现目标的过程中发现, 对于爬虫来说, 要爬取大量链接时, 链接重复一定是一个问题&lt;br /&gt;
+我寻思一定有成熟的方案, 我在这里只是做一个初学者的尝试, 对于超大量级来说, em…我可能想不到什么解决方案&lt;br /&gt;
+还是太菜了, 这个先到这里, 当最后爬虫全速运行时, 感觉真爽&lt;/p&gt;
 </description>
         <pubDate>Fri, 24 Jul 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4001/2020/07/24/pyspi_0/</link>
