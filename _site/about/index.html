@@ -12,10 +12,10 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="About - ZolHo Blog">
-    
+
     <meta property="og:type" content="website">
     <meta property="og:description" content="A dust in the world.">
-    
+
     <meta property="og:image" content="http://localhost:4001/img/avatar-zolho-ny.jpg">
     <meta property="og:url" content="http://localhost:4001/about/">
     <meta property="og:site_name" content="ZolHo Blog">
@@ -96,27 +96,27 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    
-                    
-                    
-                    
+
+
+
+
                     <li>
                         <a href="/about/">About</a>
                     </li>
-                    
-                    
-                    
+
+
+
                     <li>
                         <a href="/archive/">Archive</a>
                     </li>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
+
+
+
                 </ul>
             </div>
         </div>
@@ -162,11 +162,11 @@
     /**
      * Since Fastclick is used to delegate 'touchstart' globally
      * to hack 300ms delay in iOS by performing a fake 'click',
-     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * Using 'e.stopPropagation' to stop 'touchstart' event from
      * $toggle/$collapse will break global delegation.
-     * 
+     *
      * Instead, we use a 'e.target' filter to prevent handler
-     * added to document close HuxNav.  
+     * added to document close HuxNav.
      *
      * Also, we use 'click' instead of 'touchstart' as compromise
      */
@@ -191,9 +191,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
+
         <div class="site-heading">
-        
+
           <h1>About</h1>
           <span class="subheading">A dust in the world.</span>
         </div>
@@ -206,7 +206,7 @@
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
-        
+
 
 <!-- USE SIDEBAR -->
     <!-- PostList Container -->
@@ -227,7 +227,7 @@
 
 <!-- Chinese Version -->
 <div class="zh post-container">
-    
+
     <blockquote>
   <p>人生是结果的集合还是过程的集合呢？</p>
 </blockquote>
@@ -239,7 +239,7 @@
 
 <!-- English Version -->
 <div class="en post-container">
-    
+
     <blockquote>
   <p>Was the life sum of the process or the consequence?</p>
 </blockquote>
@@ -270,7 +270,7 @@
     var gitalk = new Gitalk({
   clientID: client_id,
   clientSecret: client_secret,
-  repo: 'zolho.cyou',
+  repo: 'zolho.github.io',
   owner: 'Zolho',
   admin: ['Zolho'],
   id: "about",      // Ensure uniqueness and length less than 50
@@ -292,50 +292,50 @@ gitalk.render('gitalk-container')
                 sidebar-container
             ">
                 <!-- Featured Tags -->
-                
+
 
 
 <section>
-    
+
     <h5><a href="/archive/">FEATURED TAGS</a></h5>
     <div class="tags">
-        
-        
-        
-        
-        
-        
-                <a data-sort="0004" 
+
+
+
+
+
+
+                <a data-sort="0004"
                     href="/archive/?tag=%E7%94%9F%E6%B4%BB"
                     title="生活"
                     rel="2">生活</a>
-        
-                <a data-sort="0002" 
+
+                <a data-sort="0002"
                     href="/archive/?tag=%E6%97%A5%E8%AE%B0"
                     title="日记"
                     rel="4">日记</a>
-        
-                <a data-sort="0003" 
+
+                <a data-sort="0003"
                     href="/archive/?tag=%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95"
                     title="学习记录"
                     rel="3">学习记录</a>
-        
-                <a data-sort="0005" 
+
+                <a data-sort="0005"
                     href="/archive/?tag=%E6%8A%80%E6%9C%AF"
                     title="技术"
                     rel="1">技术</a>
-        
-                <a data-sort="0005" 
+
+                <a data-sort="0005"
                     href="/archive/?tag=%E7%88%AC%E8%99%AB"
                     title="爬虫"
                     rel="1">爬虫</a>
-        
-                <a data-sort="0005" 
+
+                <a data-sort="0005"
                     href="/archive/?tag=%E9%9A%8F%E7%AC%94"
                     title="随笔"
                     rel="1">随笔</a>
-        
-                <a data-sort="0005" 
+
+                <a data-sort="0005"
                     href="/archive/?tag=python"
                     title="python"
                     rel="1">python</a>
@@ -348,22 +348,22 @@ gitalk.render('gitalk-container')
   <hr>
   <h5><a href="/about/">ABOUT ME</a></h5>
   <div class="short-about">
-    
+
     <img src="/img/avatar-zolho-ny.jpg" />
-    
-    
+
+
     <p>For the next quantum leap<br>离开世界之前，一切都是过程</p>
-    
+
     <!-- SNS Link -->
-    
+
 
 
 <ul class="list-inline">
 
 
-  
-  
-  
+
+
+
   <li>
     <a target="_blank" href="https://www.zhihu.com/people/lancelot9">
       <span class="fa-stack fa-lg">
@@ -372,7 +372,7 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
+
 
   <li>
     <a target="_blank" href="https://space.bilibili.com/2128208">
@@ -382,9 +382,9 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
 
-  
+
+
   <li>
     <a target="_blank" href="http://weibo.com/5237838813">
       <span class="fa-stack fa-lg">
@@ -393,9 +393,9 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
-  
-  
+
+
+
   <li>
     <a target="_blank" href="https://github.com/ZolHo">
       <span class="fa-stack fa-lg">
@@ -404,17 +404,17 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
-  
+
+
 </ul>
 
   </div>
 </section>
 
                 <!-- Friends Blog -->
-                
+
     		</div>
-        
+
 	</div>
 </div>
 
@@ -426,15 +426,15 @@ gitalk.render('gitalk-container')
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <!-- SNS Link -->
-                
+
 
 
 <ul class="list-inline text-center">
 
 
-  
-  
-  
+
+
+
   <li>
     <a target="_blank" href="https://www.zhihu.com/people/lancelot9">
       <span class="fa-stack fa-lg">
@@ -443,7 +443,7 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
+
 
   <li>
     <a target="_blank" href="https://space.bilibili.com/2128208">
@@ -453,9 +453,9 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
 
-  
+
+
   <li>
     <a target="_blank" href="http://weibo.com/5237838813">
       <span class="fa-stack fa-lg">
@@ -464,9 +464,9 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
-  
-  
+
+
+
   <li>
     <a target="_blank" href="https://github.com/ZolHo">
       <span class="fa-stack fa-lg">
@@ -475,8 +475,8 @@ gitalk.render('gitalk-container')
       </span>
     </a>
   </li>
-  
-  
+
+
 </ul>
 
 
@@ -603,7 +603,7 @@ gitalk.render('gitalk-container')
             $en.style.display = "none";
             $en.classList.remove("active");
         }
-        // interop with catalog 
+        // interop with catalog
         if ("") generateCatalog(".catalog-body");
     }
 
