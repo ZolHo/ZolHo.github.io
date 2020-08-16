@@ -5,15 +5,31 @@
     <description>About something</description>
     <link>http://localhost:4001/</link>
     <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Aug 2020 21:53:40 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Aug 2020 21:53:40 +0800</lastBuildDate>
+    <pubDate>Sun, 16 Aug 2020 18:09:48 +0800</pubDate>
+    <lastBuildDate>Sun, 16 Aug 2020 18:09:48 +0800</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>学习日记_2020年8月</title>
         <description>&lt;blockquote&gt;
+  &lt;p&gt;2020_08_16&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;使用Netlify加速github page(不过好像还是比较慢)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;2020_08_15&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;配置树莓派的内网穿透&lt;/li&gt;
+  &lt;li&gt;将域名绑定github page&lt;/li&gt;
+  &lt;li&gt;CDN加速, 公司的加速成功了, 但是github的不行, 研究了下没太明白为什么&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 

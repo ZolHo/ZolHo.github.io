@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: cc.lancelot9@gmail.com
 description: "About something"
 keyword: "bolg"
-url: "https://ZolHo.github.io"              # your host, for absolute URL
+url: "https://zolho.cyou"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -79,7 +79,7 @@ client_secret: d8bd130efed3f52af7eace11e1e0b78ed280b568
 
 # Google Analytics
 ga_track_id: 'UA-167970617-1'            # Format: UA-xxxxxx-xx
-ga_domain: zolho.github.io
+ga_domain: zolho.cyou
 
 
 
