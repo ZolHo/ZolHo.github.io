@@ -15,7 +15,7 @@ tags:
 #### 0x00  碰碰车
 
 题目给出一段缺失的字符串和对应的MD5, 求完整的MD5, 字符串只有三个字符未知, 可以直接爆破, 代码如下:
-![ss](/img/in-post/huaweibei01-0.png)
+![ss](/img/in-post/huaweibei/01-0.png)
 
 易得符合要求的MD5值
 
@@ -26,7 +26,7 @@ tags:
 
 题目给出RSA中的p+q 和p^2+q^2的值, 以及加密指数e和密文c, 求明文m.
 由已知可联立解出p和q, 于是搜索python的解方程的库, 可得工具sympy, 遂解出p q, 然后可解出解密因子d和最后的明文m, 代码与运行结果如下:
-![1](/img/in-post/huaweibei02-0.png)
+![1](/img/in-post/huaweibei/02-0.png)
 
 FLAG值：ctf{Rsa_1s_So_Easy!!! }
 
@@ -110,7 +110,7 @@ c{W_z}tXnbRf2RDS
 尝试若干无效操作如strings和foremost等之后, 观察girl的字节发现有可疑字节ori.png
 之后用StegSolve提取出文件的信息, 发现additional bytes部分中有一个rar文件的字节流(Rar开头), 同时附近有字符串(只有小写), 复制进winHex新建文件, 得到加密压缩包, 考虑提示只有小写, 于是使用爆破rar的程序, 得解压密码为三位字符串, 将其解压后可得图片ori.png, 与new.png看上去相同, 之后用StegSolve, python处理无果
 后来在查看去年新生赛的时候看到了类似的题目, 可能为盲水印, 但是去年的工具处理依然无果, 但之前接触过其他盲水印的题目, 知道不同的工具处理的结果不同, 遂用其他的盲水印工具尝试, 最后成功提取出带有flag的图像(艰难读取flag)
-![ss](/img/in-post/huaweibei09-0.png)
+![ss](/img/in-post/huaweibei/09-0.png)
 
 > FLAG值：ctf{LSGG_TXDY_ddddhm}
 
@@ -118,7 +118,7 @@ c{W_z}tXnbRf2RDS
 #### 0x0A  集齐五龙珠
 
 题目给出大堆名字意义不明的文件, 如图
-![ss](/img/in-post/huaweibei0A-0.png)
+![ss](/img/in-post/huaweibei/0A-0.png)
 不过还是很明显可以看出大概率是base64编码
 于是写个脚本遍历文件名字并输出解码后的文件名
 翻看一下可以看到有几个XX_ONE的文件, 于是修改下脚本删除其他的文件, 可得五个文件:
@@ -144,12 +144,12 @@ first , smart ,cute ,funny, last!
 #### 0x0C  假的签到
 
 题目上来就一个机器人, 于是进robots.txt, 看到路径phpp_tql.php, 访问之
-![ss](/img/in-post/huaweibei0C-0.png)
+![ss](/img/in-post/huaweibei/0C-0.png)
 
 查看代码可知, 需要一组md5相同的不同串, 直接百度md5相同的字符串可以找到符合要求的串:
 https://blog.csdn.net/qq_42967398/article/details/104522626
 用hackbar构造url访问即可得到flag
-![ss](/img/in-post/huaweibei0C-1.png)
+![ss](/img/in-post/huaweibei/0C-1.png)
 
 > FLAG值： ctf{r0bots_1s_g00d}
 
@@ -164,7 +164,7 @@ https://blog.csdn.net/qq_42967398/article/details/104522626
 Web苦手的我, 在尝试了 ’ or ‘1’=’1 成功之后就不知道如何操作了, 使用union select 会被检测出来并返回”你不对劲”, 于是我去搜索自动注入工具和绕过检测的方法, 捣鼓了半天无果
 但毕竟这是baby题, 于是我想到了看看攻防世界里有没有, 结果确实找到了之前看过的类似 supersql
 照着网上此题的题解, 先进行堆叠注入
-![ss](/img/in-post/huaweibei0E-0.png)
+![ss](/img/in-post/huaweibei/0E-0.png)
 
 得表flag, 然后查看字段, 可看到类似flag的字段, 尝试提交可知确实是flag
 
@@ -182,7 +182,7 @@ FLAG值： 忘了
 最后第三个页面, 说你不是管理员, 于是卡在这里了
 期间, 研究过cookie, 发现有个base64编码的cookie, 解码得admin=0, 尝试改为1再请求, 无果
 后面看去年新生赛发现了类似的题, 用x-forwarded-for: 127.0.0.1来伪造内网访问, 用burpsuit抓包修改, 结合admin=1和xff(我还删了个session不知道有没有影响), 最后得到了flag
-![ss](/img/in-post/huaweibei10-0.png)
+![ss](/img/in-post/huaweibei/10-0.png)
 
 > FLAG值： ctf{Have_4_n1ce_c0mpetition!}
 
@@ -199,7 +199,7 @@ FLAG值： 忘了
 1. 邮箱简单, 在有题解的那个官网就有个链接
 Xp0intjnu@gmail.com
 2. 之后找的是队长ID, 直接百度无果, 尝试收集战队最早的信息, 推测出创建大约在2016年前, 翻公众号找到最早的消息, 发现早年新生赛和新生群, 搜索发现群现在还在, 于是直接在QQ群搜索xp0int:
-![ss](/img/in-post/huaweibei11-0.png)
+![ss](/img/in-post/huaweibei/11-0.png)
 我们有理由认为这个群主就是第一任的队长, 于是抄下他头像上的ID去搜索, 找到了其个人主页, 查看自我介绍确实提到了他就是xp0int战队创始人之一
 3. 最后找的是JNU举行的比赛, 当时我觉得是大型比赛, 用(暨南大学举办/主办), site:jnu.edu.cn 等方式寻找主办的大型比赛, 结果很不理想, 最后自暴自弃的直接搜索暨南大学举办比赛, 然后遍历去试, 最后试出来是世安杯
 
@@ -213,7 +213,7 @@ Xp0intjnu@gmail.com
 
 题目给出了一串HASH, 并告诉你这是transaction hash, 于是百度可知, transaction hash指的是指向一次交易的地址, 查资料可知在以太坊ropsten.etherscan.io上可以查找这些信息
 于是查找可进入该交易的信息页面, 在底下可以看到一个Input Data, 内容为一串HEX, 以太坊还贴心的提供了View Input As UTF8, 可直接看到flag
-![ss](/img/in-post/huaweibei12-0.png)
+![ss](/img/in-post/huaweibei/12-0.png)
 
 > FLAG值：ctf{ZSJJ_YYDS!!!!}
 
@@ -224,11 +224,11 @@ Xp0intjnu@gmail.com
 ####0x13  捉迷藏
 
 将ELF拖入IDA, F5可得
-![ss](/img/in-post/huaweibei13-0.png)
+![ss](/img/in-post/huaweibei/13-0.png)
 可知flag可能和程序没啥关系, 于是查找string, 无果, 尝试strings | grep ‘ct’, 有果:
-![ss](/img/in-post/huaweibei13-1.png)
+![ss](/img/in-post/huaweibei/13-1.png)
 直接strings输出全部, 找到
-![ss](/img/in-post/huaweibei13-2.png)
+![ss](/img/in-post/huaweibei/13-2.png)
 直接复制过去发现incorrect, 观察它, 我们有理由认为每一串末尾的H是无用的, 去掉后提交, 正确
 
 > FLAG值：ctf{We1c0me_7o_R3_wor!d}
@@ -239,7 +239,7 @@ Xp0intjnu@gmail.com
 说明还是要自己看看的, 本来准备学习下python字节码, 不过看了题目, 发现很好理解
 没一小块都是先将一个我们输入的数从数组中取出来, 与下面的数, 做下下面操作, 再与下下面的数, 做判断是否相等的操作(额, 总之从上到下就是个逆波兰表达式的过程)
 总之, 根据他们的运算推出我们应该输入的数, 如下:
-![ss](/img/in-post/huaweibei14-0.png)
+![ss](/img/in-post/huaweibei/14-0.png)
 可得到flag(图中省略了ct)
 
 > FLAG值：ctf{ zygg_yyds_ddddhm}
@@ -247,12 +247,12 @@ Xp0intjnu@gmail.com
 #### 0x15  正道的光
 
 IDA打开, F5后开始研究生成的代码, 在main函数下容易看出下图注释处的信息
-![ss](/img/in-post/huaweibei15-0.png)
+![ss](/img/in-post/huaweibei/15-0.png)
 
 随后看到它将四次调用check_flag, 每次会取maze数组的一部分, 而哪一部分是靠输入的前面四个数决定的
 再进入check_flag函数, 看到判断输入是否为”wasd”的时候, 我才明白这是个走迷宫的reverse (原谅我不知道maze的意思)
 之后就很简单了, 通过下面计算位置的函数, 判断出迷宫应该为10*25大小, 我们从HEX view中, 拿到maze数组的数据放入python处理, print之后, 就能看到全部四副地图的样子了:
-![ss](/img/in-post/huaweibei15-1.png)
+![ss](/img/in-post/huaweibei/15-1.png)
 
 我们走完迷宫后判断步数和step数组对应, 很容易理解字符串的前四个数字是决定地图顺序的
 按照step数组决定前四位之后按顺序用-字符拼接起来, 运行测试可得flag
@@ -262,11 +262,11 @@ IDA打开, F5后开始研究生成的代码, 在main函数下容易看出下图�
 #### 0x16  basic_hash
 
 IDA打开, F5查看生成的代码:
-![ss](/img/in-post/huaweibei16-0.png)
+![ss](/img/in-post/huaweibei/16-0.png)
 此处易知, 我们要令输入的md5值低于程序处理过后的一个数组
 由于我还没学会gdb调试, 并且校园网拨号器阻止了我主机和虚拟机桥接来IDA远程调试, 所以卡了几天, 最后借到了服务器尝试远程调试
 能动态调试就很简单了, 我们在执行判断之前打个断点, 然后查看此时我们对比的值为多少就可以得到我们应该生成的md5, 断点处栈如下:
-![ss](/img/in-post/huaweibei16-1.png)
+![ss](/img/in-post/huaweibei/16-1.png)
 其中的若干0是我们的输入, 下面那一大串就是我们需要的准备比较的md5串, 我们将其放入网上的md5破解可解出输入值应该为zygg
 以此类推的第二串输入应该为yyds
 通过后输出flag: ctf{input1+input2}
