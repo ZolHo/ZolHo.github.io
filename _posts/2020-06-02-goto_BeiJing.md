@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【随笔】第一次坐飞机"
+title: "随笔 - 第一次坐飞机"
 subtitle: '前往北京大兴机场'
 author: "ZolHo"
 header-style: text

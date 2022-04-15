@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【整理】游戏开发学习资料整理"
+title: "整理 - 游戏开发学习资料整理"
 subtitle: '>_<收藏夹压仓低的东西太多了，收拾收拾整理下'
 author: "ZolHo"
 header-style: text

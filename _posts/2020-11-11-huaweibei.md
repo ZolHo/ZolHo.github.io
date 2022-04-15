@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "【比赛】CTF新生赛'华为杯'WP"
-subtitle: '第一次参加比赛, 爆肝几天后艰难老八'
+title: "比赛 - CTF新生赛'华为杯'WP"
+subtitle: '第一次参加CTF比赛, 爆肝几天后艰难老八'
 author: "ZolHo"
 header-style: text
 tags:
