@@ -62,11 +62,6 @@ layout: default
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
 
-                {% if site.gitment_comment %}
-                <!-- gittalk跟帖 评论框 start -->
-                <div id="gitalk-container" class="gitalk-container col-lg-8 col-lg-offset-2 col-md-10 "></div>
-                <!-- gittalk跟帖 评论框 end -->
-                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
@@ -98,6 +93,12 @@ layout: default
                 <!-- Friends Blog -->
                 {% include friends.html %}
             </div>
+
+            {% if site.gitment_comment %}
+            <!-- gittalk跟帖 评论框 start -->
+            <div id="gitalk-container" class="gitalk-container col-lg-8 col-lg-offset-2 col-md-10 "></div>
+            <!-- gittalk跟帖 评论框 end -->
+            {% endif %}
         </div>
     </div>
 </article>
