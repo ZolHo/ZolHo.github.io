@@ -61,6 +61,12 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
+
+                {% if site.gitment_comment %}
+                <!-- gittalk跟帖 评论框 start -->
+                <div id="gitalk-container" class="gitalk-container col-lg-8 col-lg-offset-2 col-md-10 "></div>
+                <!-- gittalk跟帖 评论框 end -->
+                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
@@ -135,7 +141,32 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+{% if site.gitment_comment %}
+<!-- gittalk 公共JS代码 start (一个网页只需插入一次) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var github_id = "Zolho"
 
+    var client_id = "{{site.client_id}}"
+    var client_secret = "{{site.client_secret}}"
+
+
+    var gitalk = new Gitalk({
+  clientID: client_id,
+  clientSecret: client_secret,
+  repo: 'zolho.github.io',
+  owner: 'Zolho',
+  admin: ['Zolho'],
+  id: location.href,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+</script>
+<!-- gittalk 公共JS代码 end -->
+{% endif %}
 {% if site.anchorjs %}
 <!-- async load function -->
 <script>
