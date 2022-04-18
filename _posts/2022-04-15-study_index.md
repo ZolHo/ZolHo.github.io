@@ -24,11 +24,14 @@ tags:
   > 目前设想专栏的内容会包括用于游戏的实时渲染，电影特效的离线渲染，物理模拟，渲染器和游戏引擎的开发，和GPU通用开发等。
 - [从光栅到光线追踪 - Asixa](https://www.zhihu.com/column/c_189375388) `知乎专栏`
   > 目前有*一周学习光线追踪*文中相关技术讲解、光追中具体算法讲解
+- [实时渲染学习笔记 - TC130](https://www.zhihu.com/column/c_1210266723531976704) `知乎专栏`
+  > 实时渲染数学、全局光照、阴影、后处理、抗锯齿等内容笔记
 - [浅墨的游戏编程 - 毛星云](https://www.zhihu.com/column/game-programming) `知乎专栏`
-  > 淬炼编程技术与图形学，成长为进阶的游戏开发者。关键词`游戏设计模式` `PBR` `GPU精粹与Shader编程` `RTR3` 。期待作者的下次更新。
+  > 淬炼编程技术与图形学，成长为进阶的游戏开发者。关键词**游戏设计模式**\ **PBR**\ **GPU精粹与Shader编程**\ **RTR3** 。期待作者的下次更新。
 - [GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744) `视频`
   > 入门、复习必看
 - [GAMES202-高质量实时渲染 - 闫令琪](https://www.bilibili.com/video/BV1YK4y1T7yY) `视频`
+  > 进阶课程
 - [技术美术百人计划 - 霜狼_may](https://space.bilibili.com/7398208/channel/seriesdetail?sid=1067039) `视频`
 - [LearnOpenGL CN](https://learnopengl-cn.github.io/) `opengl`
 - [Ray Tracing in One Weekend(中文翻译) - csu_xiji](https://blog.csdn.net/xiji333/article/details/108730223) `文章`
