@@ -6,7 +6,6 @@ author: "ZolHo"
 header-style: text
 tags:
   - 生活
-  - 随笔
 ---
 > 第一次坐飞机也来水一篇博文,主要是技术差，没啥好写
 

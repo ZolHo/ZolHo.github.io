@@ -5,7 +5,6 @@ subtitle: '第一次参加CTF比赛, 爆肝几天后艰难老八'
 author: "ZolHo"
 header-style: text
 tags:
-  - WriteUp
   - CTF
 ---
 # Writeup
