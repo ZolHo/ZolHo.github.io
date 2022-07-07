@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UE中的Tick实现机制"
+title: "UE中的Tick实现机制浅析"
 subtitle: ''
 author: "ZolHo"
 header-style: text
@@ -52,6 +52,7 @@ void UWorld::Tick( ELevelTick TickType, float DeltaSeconds ) {
     }
 }
 ```
+
 上面是`UWorld::Tick`部分代码，可见在执行Tick前后会进行StartFrame和EndFrame，中间则按分组依次执行。关于分组TickGroup，其实是为一次Tick划分了若干阶段，阶段间串行执行，同一阶段的TickTask则可以并行执行。可以查看[官方文档](https://docs.unrealengine.com/4.26/zh-CN/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Actors/Ticking/)了解每个阶段的具体解释。
 
 在`StartFrame`流程中可以看到`FTickTaskManager`会将所有Level中的`FTickTaskLevel`取出来自己保存，这里面就有这全部Actor（Component同样）的`FTickFuction`。如此一来，整个大概的流程算是串联起来了，虽然很多问题比如`FTickTaskSwquencer`的作用还没有搞清楚...不过先到此为止。下面简单总结下：
@@ -66,4 +67,21 @@ void UWorld::Tick( ELevelTick TickType, float DeltaSeconds ) {
 
 在UE4中，Gameplay对象提供了虚函数Tick供我们重载，然后如上文所说进行每帧执行。若我们想让Object或者原生C++类进行Tick可以通过继承`FTickableGameObject`类，然后实现它的纯虚函数`Tick`和`GetStatId`即可自动每帧执行Tick函数。
 
-很神奇啊，这是咋做到的呢？我们可以看到上面的代码中，World Tick中调用了`FTickableGameObject::TickObjects`，它是一个静态成员函数。可以想象，UE应该是用了某种手段将子类的信息都收集起来
+很神奇，甚至不用手动实例化对象就会执行Tick，这是咋做到的呢？我们可以看到上面World Tick的代码中，它调用了`FTickableGameObject::TickObjects`，它是一个静态成员函数。可以想象，UE应该是用了某种手段把所有的子类实例统一管理，我们可以尝试从该函数以及构造函数寻找线索。
+
+```cpp
+FTickableGameObject::FTickableGameObject()
+{
+  FTickableStatics& Statics = FTickableStatics::Get();
+  Statics.QueueTickableObjectForAdd(this);
+}
+```
+
+上面的代码就是`FTickableGameObject`的构造函数（简化），它会叫全局单例`FTickableStatics`过来，并把自己保存到它的一个TSet中。而`TickObjects`函数则同样把这个单例叫过来，然后取出它保存的TickableObject，根据它的设置走不同的分支，最终调用了这些对象的Tick函数。
+
+并且由于UE会为类自动生成CDO（类默认对象），所以我们不用手动实例化就可以有一个默认的对象进行Tick。这里可以做个实验，如果我们手动实例化，它应该会多执行相应的对象的Tick。所以TickableObject的机制看上去也不复杂（也可能是我的问题，这段没参考其他文章），就是在构造时保存到全局对象中，然后在Tick的过程中取出调用。
+
+> 参考文章：  
+> [Unreal TickFunc调度 - 知乎](https://zhuanlan.zhihu.com/p/467438700)  
+> [硬核分析：Unreal Tick 实现 - KM](https://www.163.com/dy/article/H4EVI8360518R7MO.html)  
+> [UE4 Tick机制解析 - KM (无外链抱歉)](https://km.woa.com/group/20930/articles/show/429077)
